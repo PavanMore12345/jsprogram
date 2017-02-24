@@ -1,0 +1,10 @@
+<html>
+<head>
+<script src="nextday.js"></script>
+<link rel="stylesheet" href="nextday.css">
+</head>
+<body onload="myfun()">
+  current day is: <p id="current"></p>
+  next day is:<p id="next"></p>
+</body>
+</html>

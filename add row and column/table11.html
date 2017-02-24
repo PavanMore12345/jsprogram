@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+table, td {
+    border: 1px solid black;
+}
+</style>
+</head>
+<body>
+
+<p>Click the button to create a TABLE, a TR and a TD element.</p>
+
+<button onclick="myfun()">add row</button>
+<button onclick="myfun2()">add column</button>
+
+<script>
+    var x = document.createElement("TABLE");
+    x.setAttribute("id", "myTable");
+    document.body.appendChild(x);
+function myfun(){
+    var y = document.createElement("TR");
+    document.getElementById("myTable").appendChild(y);
+}
+function myfun2(){
+    var z = document.createElement("TD");
+    var t = document.createTextNode("cell");
+    z.appendChild(t);
+    document.getElementById("myTable").appendChild(z);
+  }
+</script>
+
+</body>
+</html>

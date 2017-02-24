@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      table,th,td {
+        border: 1px solid lightblue;
+      }
+    </style>
+  </head>
+  <script  charset="utf-8">
+  function Inrow()
+    {
+      var table=document.getElementById("txt");
+      var x=document.getElementById("txt").rows.length;
+      var column=document.getElementById("txt").rows[0].cells.length;
+      var row1=table.insertRow(x);
+      for (var i = 0; i < column; i++) {
+        var coll1=row1.insertCell(i);
+        coll1.innerHTML="new col"+i;
+        }
+      }
+      function Incol()
+      {
+        var len=document.getElementById("txt");
+        var col=document.getElementById("txt").rows[0].cells.length;
+        for (var i = 0; i < len.rows.length; i++) {
+         var coll2=len.rows[i].insertCell(col);
+  coll2.innerHTML="new Col"+i;
+          }
+  }
+  </script>
+  <body>
+
+    <table id="txt">
+      <tr>
+        <th>Company</th>
+        <th>Employee</th>
+      </tr>
+
+      <td>BridgeLabz</td>
+      <td>krishna</td>
+
+    </table>
+<button onclick="Inrow()">Add Row</button><br>
+<button type="button" name="button" onclick="Incol()">Add Column</button>
+  </body>
+</html>

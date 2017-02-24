@@ -1,0 +1,30 @@
+<html>
+<body>
+  <p id="demo"></p>
+  <script>
+  var x="";
+  var abc={name:"pavan",lastname:"more",mark:80,add:"mumbai"};
+  var pqr={name:"pavan",lastname:"more",mark:80,add:"mumbai"};
+  function myfun(abc,pqr)
+  {
+    if(abc.name==pqr.name&&
+    abc.lastname==pqr.lastname&&
+    abc.mark==pqr.mark&&
+    abc.add==pqr.add)
+    {
+    return 1;
+  }
+  else {
+    return 0;
+  }
+}
+  if(myfun(abc,pqr)){
+    x="objects are equal ";
+  }
+  else {
+    x="objects are not equal";
+  }
+  document.getElementById("demo").innerHTML=x;
+  </script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+var album=["album1":{"id":01,"prop":"tracks","value":"Addicted to love"},
+"album2":{"id":02,"prop":"artists","value":"love is game"},
+"album3":{"id":03,"prop":"artists","value":"love is timepass"},
+"album4":{"id":04,"prop":"tracks","value":"hello h r u"},
+"album5":{"id":05,"prop":"artists","value":""},
+"album6":{"id":06,"prop":"tracks","value":" "},
+:{"id":07,"prop":"","value":" "}];
+

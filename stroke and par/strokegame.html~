@@ -1,0 +1,13 @@
+<html>
+<head>
+<script src="strokepar.js"></script>
+</head>
+<body>
+  enter stroke:<input type="text" id="id1" name="fname">
+  <br>
+  enter par:<input type="text" id="id2" name="fname2">
+  <br>
+  <button onclick="myfun()">result</button>
+  <p id="demo"></p>
+</body>
+</html>

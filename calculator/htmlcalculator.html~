@@ -1,0 +1,28 @@
+<html>
+<head>
+<script src="calculator.js">    
+</script>
+ <link rel="stylesheet" href="calculator.css">
+  </head>
+<body>
+<div id="id1">
+  <table align="center">
+<tr><td>firstNumber:</td><td><input type="text" name="fname1" id="fid1" ></td></tr>
+<tr><td>secondNumber:</td><td><input type="text" name="fname2" id="id2" ></td></tr>
+<tr><td>result:</td><td><input type="text" name="result" id="id3" ></td></tr>
+<tr>
+<td>
+<select id="sid">
+  <option value="addition">+</option>
+  <option value="substraction">-</option>
+  <option value="multiplication">*</option>
+    <option value="division">/</option>
+  </select>
+</td>
+  <td>
+  <button onclick="myfun()">calculate</button></td></tr>
+</table>
+<p id="demo"></p>
+</div>
+</body>
+</html>

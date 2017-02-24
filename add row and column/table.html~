@@ -1,0 +1,13 @@
+<html>
+<head>
+<link rel="stylesheet" href="tbrow.css">
+<script src="tbrow.js"></script>
+</head>
+<body>
+
+<p>Click the button to create a TABLE, a TR and a TD element.</p>
+
+<button onclick="myfun()">add row</button>
+<button onclick="myfun2()">add column</button>
+</body>
+</html>

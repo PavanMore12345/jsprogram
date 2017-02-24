@@ -1,0 +1,17 @@
+<html>
+<head>
+<script src="multidimen.js"></script>
+</head>
+<body>
+
+  <button onclick="myfun()">push</button><br>
+  <p id="demo"></p><br>
+  <button onclick="myfun2()">pop</button><br>
+  <p id="demo1"></p><br>
+  <button onclick="myfun3()">shift</button><br>
+  <p id="demo2"></p><br>
+  <button onclick="myfun4()">unshift</button>
+  <p id="demo3"></p><br>
+ 
+</body>
+</html>

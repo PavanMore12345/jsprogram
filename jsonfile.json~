@@ -1,0 +1,29 @@
+
+var collection={
+"1245":
+{
+"artist":"robert palmer",
+"tracks":[]
+},
+"2468":
+{
+"album":"1999",
+"artist":"prince",
+"tracks":[
+"1999",
+"Little red covertte"
+]
+},
+"2548":
+{
+"album":"slippery when wet",
+"artist":"bon jovi",
+"tracks":["Let Its Rock","you give love a Bad Name"]
+},
+"5439":
+{
+"album":"ABBA Gold"
+}
+}
+
+
