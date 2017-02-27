@@ -1,0 +1,14 @@
+<html>
+<head>
+<script src="curry.js"></script>
+</head>
+<body>
+  number1:<input type="text" name="fname" id="id1">
+  number2:<input type="text" name="fnmw" id="id2"><br>
+  <button onclick="myadd()">Addition</button><br>
+  <button onclick="mysub()">substraction</button><br>
+  <button onclick="mymul()">multiplication</button><br>
+  <button onclick="mydiv()">division</button><br>
+  <p id="demo"></p>
+</body>
+</html>

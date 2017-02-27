@@ -1,0 +1,68 @@
+
+  var add=function(num1)
+  {
+  return function(num2)
+  {
+    return(num1+num2);
+  };
+};
+var sub=function(num1)
+{
+  return function(num2)
+  {
+    return(num1-num2);
+  };
+};
+var mul=function(num1)
+{
+  return function(num2) {
+    return(num1*num2);
+  };
+};
+var div=function(num1)
+{
+  return function(num2)
+  {
+    return(num1/num2);
+  };
+};
+  var res=0.0;
+ //console.log(num1);
+ //console.log(num2);
+function myadd()
+{
+  var num1=document.getElementById('id1').value;
+  var num2=document.getElementById("id2").value;
+   num1=Number(num1);
+   num2=Number(num2);
+   res=add(num1)(num2);
+
+document.getElementById("demo").innerHTML=res;
+}
+function mysub()
+{
+  var num1=document.getElementById('id1').value;
+  var num2=document.getElementById("id2").value;
+   num1=Number(num1);
+   num2=Number(num2);
+   res=sub(num1)(num2);
+  document.getElementById("demo").innerHTML=res;
+}
+function mymul()
+{
+  var num1=document.getElementById('id1').value;
+  var num2=document.getElementById("id2").value;
+   num1=Number(num1);
+   num2=Number(num2);
+  res=mul(num1)(num2);
+  document.getElementById("demo").innerHTML=res;
+}
+function mydiv() {
+  var num1=document.getElementById('id1').value;
+  var num2=document.getElementById("id2").value;
+   num1=Number(num1);
+   num2=Number(num2);
+res=div(num1)(num2);
+document.getElementById("demo").innerHTML=res;
+}
+
